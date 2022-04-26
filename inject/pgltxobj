@@ -1,0 +1,98 @@
+<libpmemobj>: <1> [out.c:236 out_init] pid 14872: program: /home/nvm-admin/pmdk-pangolin/src/benchmarks/pmembench
+<libpmemobj>: <1> [out.c:238 out_init] libpmemobj version 2.4
+<libpmemobj>: <1> [out.c:242 out_init] src version: 1.5
+<libpmemobj>: <1> [out.c:250 out_init] compiled with support for Valgrind pmemcheck
+<libpmemobj>: <1> [out.c:255 out_init] compiled with support for Valgrind helgrind
+<libpmemobj>: <1> [out.c:260 out_init] compiled with support for Valgrind memcheck
+<libpmemobj>: <1> [out.c:265 out_init] compiled with support for Valgrind drd
+<libpmemobj>: <1> [out.c:270 out_init] compiled with support for shutdown state
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x56287b8d3140 for oidoff 0x744150[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x56287b8d3140, pobj = 0x10000744150, size = 80
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 1 objects for txid 1
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x744150
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0000bc0 for oidoff 0x785150[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0000bc0, pobj = 0x10000785150, size = a80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0003dc0 for oidoff 0x78a6d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0003dc0, pobj = 0x1000078a6d0, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78a6d0
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0004100 for oidoff 0x78a750[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0004100, pobj = 0x1000078a750, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78a750
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0004200 for oidoff 0x78a7d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0004200, pobj = 0x1000078a7d0, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78a7d0
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0004300 for oidoff 0x78a850[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0004300, pobj = 0x1000078a850, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78a850
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0004400 for oidoff 0x78a8d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0004400, pobj = 0x1000078a8d0, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78a8d0
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0004540 for oidoff 0x78a950[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0004540, pobj = 0x1000078a950, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78a950
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0004640 for oidoff 0x78a9d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0004640, pobj = 0x1000078a9d0, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78a9d0
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0004740 for oidoff 0x78aa50[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0004740, pobj = 0x1000078aa50, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78aa50
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0004840 for oidoff 0x78aad0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0004840, pobj = 0x1000078aad0, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78aad0
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f00017c0 for oidoff 0x7441d0[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f00017c0, pobj = 0x100007441d0, size = 80
+<libpmemobj>: <1> [objbuf.c:253 obuf_create_objbuf] [1m[34mMalloc objbuf 0x7fb9f0004980 for oidoff 0x78ab50[0m
+<libpmemobj>: <1> [objbuf.c:108 obuf_fill_objbuf] obuf = 0x7fb9f0004980, pobj = 0x1000078ab50, size = 10
+<libpmemobj>: <1> [objbuf_tx.c:1112 obuf_tx_heap_commit] commit 3 objects for txid 9
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x78ab50
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x785150
+<libpmemobj>: <1> [objbuf_tx.c:1122 obuf_tx_heap_commit] commit obj at offset 0x7441d0
+>map_insert [1]
+benchmark;total-avg[sec];ops-per-second[1/sec];total-max[sec];total-min[sec];total-median[sec];total-std-dev[sec];latency-avg[nsec];latency-min[nsec];latency-max[nsec];latency-std-dev[nsec];latency-pctl-50.0%[nsec];latency-pctl-99.0%[nsec];latency-pctl-99.9%[nsec];threads;ops-per-thread;data-size;seed;repeats;thread-affinity;main-affinity;min-exe-time;type;seed;max-key;external-tx;alloc;check-pool;check-user
+map_common_init: successfully opened
+map_insert;0.000777;12878.217140;0.000777;0.000777;0.000777;0.000000;77657;59914;209758;44201.441006;60736;209758;209758;1;10;256;0;1;false;-1;0;hashmap_tx;1586995952;0;false;false;false;false
